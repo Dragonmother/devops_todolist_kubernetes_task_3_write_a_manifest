@@ -19,5 +19,5 @@ spec:
         httpGet:
           path: /api/liveness/
           port: 8000
-        initialDelaySeconds: 15
+        initialDelaySeconds: 10
         periodSeconds: 20
